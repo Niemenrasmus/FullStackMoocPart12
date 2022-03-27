@@ -1,0 +1,10 @@
+Script started on 2022-03-15 22:49:39+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="120" LINES="30"]
+]0;rasmusniemi@DESKTOP-NP0L24S: ~/full-stack-mooc/part12-containers-applications[01;32mrasmusniemi@DESKTOP-NP0L24S[00m:[01;34m~/full-stack-mooc/part12-containers-applications[00m$ exitdocker run hello-worldsudo usermod -aG docker $USER[9Pgroupadd dockerusermod -aG docker $USER[7Pdocker run hello-worldexit[K[Kdocker run -it ubuntu bash
+]0;root@bfe3abe31084: /root@bfe3abe31084:/# [K]0;root@bfe3abe31084: /root@bfe3abe31084:/# mkdir user r  r& ^ & /src/app
+]0;root@bfe3abe31084: /root@bfe3abe31084:/# touch usr/srcY /app/indec x.js
+]0;root@bfe3abe31084: /root@bfe3abe31084:/# [Kexit
+exit
+]0;rasmusniemi@DESKTOP-NP0L24S: ~/full-stack-mooc/part12-containers-applications[01;32mrasmusniemi@DESKTOP-NP0L24S[00m:[01;34m~/full-stack-mooc/part12-containers-applications[00m$ exit
+exit
+
+Script done on 2022-03-15 22:50:51+02:00 [COMMAND_EXIT_CODE="0"]

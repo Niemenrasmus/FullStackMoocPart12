@@ -1,0 +1,19 @@
+Script started on 2022-03-25 20:34:49+02:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="114" LINES="52"]
+]0;rasmusniemi@DESKTOP-NP0L24S: ~/full-stack-mooc/part12-containers-applications/script-answers[01;32mrasmusniemi@DESKTOP-NP0L24S[00m:[01;34m~/full-stack-mooc/part12-containers-applications/script-answers[00m$ exitdocker exec -it todo-backend-mongo-1 bash[A]0;rasmusniemi@DESKTOP-NP0L24S: ~/full-stack-mooc/part12-containers-applications/script-answers[01;32mrasmusniemi@DESKTOP-NP0L24S[00m:[01;34m~/full-stack-mooc/part12-containers-applications/script-answers[00m$ exit[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kdocker exec -it todo-backend-redis-1 bash
+[?2004hroot@4f9cfb67580a:/data# redis-cli KEYS count
+[?2004l(empty array)
+[?2004hroot@4f9cfb67580a:/data# redis-cli KEYS count     *
+[?2004l(empty array)
+[?2004hroot@4f9cfb67580a:/data# redis-cli SET count 9001
+[?2004lOK
+[?2004hroot@4f9cfb67580a:/data# redis-cli GET count
+[?2004l"9001"
+[?2004hroot@4f9cfb67580a:/data# http://localhost:3000/statisticsroot@4f9cfb67580a:/data# [13Predis-cli GET count[1P[1P[1P[1@D[1@E[1@L
+[?2004l(integer) 1
+[?2004hroot@4f9cfb67580a:/data# exit
+[?2004lexit
+]0;rasmusniemi@DESKTOP-NP0L24S: ~/full-stack-mooc/part12-containers-applications/script-answers[01;32mrasmusniemi@DESKTOP-NP0L24S[00m:[01;34m~/full-stack-mooc/part12-containers-applications/script-answers[00m$ x[Kexit
+exit
+
+Script done on 2022-03-25 20:39:55+02:00 [COMMAND_EXIT_CODE="0"]
